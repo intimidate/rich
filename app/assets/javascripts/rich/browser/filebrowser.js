@@ -97,6 +97,7 @@ rich.Browser.prototype = {
 		var id = $(item).data('rich-asset-id');
 		var type = $(item).data('rich-asset-type');
 		var name = $(item).data('rich-asset-name');
+		url = window.location.protocol+'//'+window.location.host+url
 		
 		
 		if($.QueryString["CKEditor"]=='picker') {
